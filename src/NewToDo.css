@@ -1,0 +1,31 @@
+.wrapper{
+    margin-top: 40px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin:5px 20px;
+    background-color: violet;
+    margin-bottom: 5px;
+    padding: 5px 30px;
+    border-radius: 7px;
+    
+}
+.delete-btn{
+    width: 90px;
+    border: none;
+    height: 30px;
+    background-color: rgb(136, 106, 219);
+    color: #fff;
+    transition: 0.2s linear;
+}
+.delete-btn:hover{
+    background-color: rgb(231, 145, 145);
+}
+.name-of-new-to-do{
+    padding: 4px;
+    
+    width: 80%;
+    text-align: left;
+}

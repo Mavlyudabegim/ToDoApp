@@ -1,0 +1,31 @@
+.container{
+    margin: 20px auto;
+    width: 800px;
+    background-color: rgb(231, 145, 145);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
+#to-do-input{
+    width: 75%;
+    margin-right: 10px;
+    border: none;
+    padding: 10px;
+}
+#to-do-input:focus{
+outline: none;
+}
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    width: 15%;
+    color: white;
+    background-color: rgb(136, 106, 219);
+    border: none;
+    transition: 0.2s linear;
+    
+}
+.btn:hover{
+    background-color: violet;
+}
